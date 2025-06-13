@@ -136,4 +136,4 @@ walmart_sales_forecasting/
 ## Author
 
 **Mihir Patil**  
-Data Science Capstone Project | MIT World Peace University
+Data Science Capstone Project
