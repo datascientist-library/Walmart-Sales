@@ -1,17 +1,17 @@
 
-# 🛒 Walmart Sales Forecasting
+# Walmart Sales Forecasting
 
 Forecast weekly sales at Walmart stores using machine learning.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 This project aims to build a machine learning model to forecast **weekly sales** at Walmart stores using historical data. The goal is to support better planning, inventory management, and strategic decision-making.
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source**: Kaggle (Walmart Sales Forecasting)
 - **Target Variable**: `Weekly_Sales`
@@ -24,7 +24,7 @@ This project aims to build a machine learning model to forecast **weekly sales**
 
 ---
 
-## 🤖 Modeling Approach
+## Modeling Approach
 
 - **Models Used**:
   - Linear Regression
@@ -34,7 +34,7 @@ This project aims to build a machine learning model to forecast **weekly sales**
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - **Programming Language**: Python
 - **Libraries**:
@@ -46,7 +46,7 @@ This project aims to build a machine learning model to forecast **weekly sales**
 
 ---
 
-## 🧱 Feature Engineering
+## Feature Engineering
 
 - Extracted `Year`, `Month`, `Week` from `Date`
 - Converted `IsHoliday` to binary
@@ -55,7 +55,7 @@ This project aims to build a machine learning model to forecast **weekly sales**
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - Analyzed trends across time, stores, and holidays
 - One-hot encoded categorical variables
@@ -68,7 +68,7 @@ This project aims to build a machine learning model to forecast **weekly sales**
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - Holidays lead to significantly higher weekly sales.
 - Temperature and fuel price influence consumer behavior.
@@ -76,7 +76,7 @@ This project aims to build a machine learning model to forecast **weekly sales**
 
 ---
 
-## 🧪 Model Building
+## Model Building
 
 - **Algorithms**: Linear Regression, Decision Tree, Random Forest, XGBoost
 - **Train-Test Split**: 80:20
@@ -88,14 +88,14 @@ This project aims to build a machine learning model to forecast **weekly sales**
   - MAE (Mean Absolute Error)
   - R² Score
 
-### ✅ Best Model: XGBoost Regressor
+### Best Model: XGBoost Regressor
 
 - **RMSE**: `76,214.40`
 - **R² Score**: `0.981`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 walmart_sales_forecasting/
@@ -110,7 +110,7 @@ walmart_sales_forecasting/
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 - Enables Walmart to forecast upcoming weekly sales
 - Aids stock and workforce management
@@ -118,7 +118,7 @@ walmart_sales_forecasting/
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 - **XGBoost** performed best among tested models
 - Effective **feature engineering** and **tuning** boosted performance
@@ -126,14 +126,14 @@ walmart_sales_forecasting/
 
 ---
 
-## 🔭 Future Work
+## Future Work
 
 - Integrate real-time or recent data
 - Build an interactive dashboard for live predictions
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Mihir Patil**  
 Data Science Capstone Project | MIT World Peace University
